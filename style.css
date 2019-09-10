@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway:600&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:300&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto:400,500&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:600&display=swap'); */
 
 
 /* GENERAL PAGE VIEW */
 body {
-  background-color: rgb(118, 204, 196);
+  background-color: rgb(42, 121, 126);
   background-image: url("./pic.png");
   background-attachment: fixed;
   background-size: cover;
@@ -14,13 +16,14 @@ body {
 h1 {
   color: white;
   font-size: 4rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
 }
 
 h2 {
   color: white;
   font-size: 2rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.5;
 
@@ -29,7 +32,7 @@ h2 {
 p {
   color: white;
   font-size: 1rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-weight: 600;
 }
@@ -48,9 +51,9 @@ p {
 
 /* MENU/NAVIGATION */
 .menu-burger {
-  position: absolute;
-  top: 5%;
-  right: 5%;
+  position: fixed;
+  top: 13%;
+  right: 15%;
   font-size:30px;
   cursor:pointer;
   color:white;
@@ -63,40 +66,46 @@ p {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(70, 228, 214);
+  background-color: rgb(42, 121, 126);
   overflow-y: hidden;
-  transition: 0.5s;
+  /* transition: 0.5s; */
 }
 
 .overlay-content {
   position: relative;
-  top: 25%;
-  width: 100%;
-  font-family: 'Poppins', sans-serif;
-  font-size: 4rem;
-  text-align: center;
-  margin-top: 30px;
+  width: 249px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1.3;
+  margin: 0;
+  top: 11%;
+  left: 20%;
+  /* transition: 0.5s; */
 }
 
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 4rem;
   color: white;
-
   transition: 0.3s;
 
 }
 
+
 .overlay a:hover, .overlay a:focus {
-  color: rgb(54, 109, 111);
+  color: rgb(255, 194, 232);
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
 }
+
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
+  top: 11%;
+  right: 15%;
+  font-size: 40px;
 }
 
 @media screen and (max-height: 450px) {
