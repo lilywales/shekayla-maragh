@@ -6,12 +6,12 @@
 
   h1 {
 
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: 0;
   }
 
   h2 {
-    font-size: 1rem;
+    font-size: 1.25rem;
 
 
   }
@@ -25,37 +25,25 @@
   }
 
 
-  /* .overlay-background{
-    position: absolute;
-    height: 400%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(70, 228, 214, 0.85);
-    overflow: hidden;
-    opacity: 0.7;
-  } */
-
   /* MENU/NAVIGATION */
   .menu-burger {
 
-    top: 4%;
-    right: 13%;
-    font-size:24px;
-
+    top: 3.5%;
+      right: 5%;
+      font-size: 27px;
   }
 
   .overlay-content {
-    width: 136px;
-    top: 25%;
-    left: 5%;
+    width: 164px;
+  top: 16%;
+  left: 5%;
 
   }
 
 
   .overlay a {
 
-    font-size:2rem;
+    font-size:2.5rem;
 
   }
 
@@ -69,18 +57,18 @@
 
 
   .overlay .closebtn {
-    top: 4%;
-    right: 13%;
-    font-size:24px;
+    top: 2%;
+      right: 4%;
+      font-size: 35px;
   }
 
   /* HOME SECTION */
 
   .home-container {
 
-    top: 15%;
-    left: 10%;
-
+    top: 12%;
+    left: 6%;
+    width: 80%;
   }
 
   /* CUBE */
