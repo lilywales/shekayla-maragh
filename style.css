@@ -10,6 +10,13 @@ body {
   background-size: cover;
 }
 
+@media screen and (max-height: 600px) {
+  /* GENERAL PAGE VIEW */
+  body {
+    background-image: url("./pic.png");
+  }
+}
+
 h1 {
   color: white;
   font-size: 4rem;
