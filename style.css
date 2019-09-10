@@ -1,8 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css?family=Poppins:300&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton|Roboto:400,500&display=swap');
-/* @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway:600&display=swap'); */
 
 
 /* GENERAL PAGE VIEW */
@@ -80,8 +77,9 @@ p {
   margin: 0;
   top: 11%;
   left: 20%;
-  /* transition: 0.5s; */
+
 }
+
 
 .overlay a {
   padding: 8px;
