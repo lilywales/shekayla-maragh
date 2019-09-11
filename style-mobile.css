@@ -1,11 +1,10 @@
 @media only screen and (max-width: 600px) {
   /* GENERAL PAGE VIEW MOBILE*/
   body {
-    background-image: url("./pic2.png");
+    background-image: url("./h.jpg");
   }
 
   h1 {
-
     font-size: 2.5rem;
     letter-spacing: 0;
   }
@@ -18,10 +17,9 @@
 
   p {
 
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
-    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1.2;
+  
   }
 
 
@@ -57,9 +55,9 @@
 
 
   .overlay .closebtn {
-    top: 2%;
-      right: 4%;
-      font-size: 35px;
+    top: 1.5%;
+    right: 3.5%;
+    font-size: 40px;
   }
 
   /* HOME SECTION */
@@ -68,16 +66,14 @@
 
     top: 12%;
     left: 6%;
-    width: 80%;
+    width: 90%;
   }
 
   /* CUBE */
 
   .cube {
-    position: absolute;
-    top: 96%;
-    left: 16%;
-    width: 35%;
+    left: 6%;
+    width: 44%;
   }
 
   /* THE SPIEL */
