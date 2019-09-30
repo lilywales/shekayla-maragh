@@ -4,18 +4,12 @@
 
 /* GENERAL PAGE VIEW */
 body {
-  background-color: rgb(42, 121, 126);
-  background-image: url("./d.jpg");
+  background-color: rgb(112, 183, 187);
+  background-image: url("./dt1.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
 
-@media screen and (max-height: 600px) {
-  /* GENERAL PAGE VIEW */
-  body {
-    background-image: url("./pic.png");
-  }
-}
 
 h1 {
   color: white;
@@ -27,7 +21,7 @@ h1 {
 h2 {
   color: white;
   font-size: 2rem;
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Anton', sans-serif;
   font-weight: 400;
   line-height: 1.5;
 
@@ -47,13 +41,24 @@ a {
   cursor: pointer;
 }
 
+ul {
+  color: white;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+  list-style-type: circle;
+}
+
 .overlay-background{
   position: absolute;
   height: 400%;
   width: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(70, 228, 214, 0.85);
+  /* background-color: rgba(162, 191, 247, 0.98); */
+  /* background-color: rgba(50, 255, 246, 0.98); */
+  background-color: rgba(20, 189, 181, 0.98);
   overflow: hidden;
   opacity: 0.7;
 }
@@ -75,9 +80,8 @@ a {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(42, 121, 126);
+  background-color: rgb(50, 208, 195);
   overflow-y: hidden;
-  /* transition: 0.5s; */
 }
 
 .overlay-content {
@@ -138,33 +142,84 @@ a {
   width: 60%;
 }
 
+.home-container h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* CUBE */
 
 .cube {
+  background-image: url("./w.jpg");
   position: absolute;
-  top: 96%;
-  left: 16%;
+  top: 105%;
+  left: 14%;
   width: 35%;
+  display: flex;
 }
 
+.section-overlay {
+  width: 100%;
+  background-color: rgba(50, 208, 195, 0.9);
+
+}
+
+.cube-text {
+  margin: 5% 5% 5% 5%;
+
+}
+
+.cube-text h2 {
+  margin-top: 0;
+
+}
+.video {
+  position: absolute;
+  top: 105%;
+  left: 14%;
+height: 2%;
+}
 /* THE SPIEL */
 .spiel {
   position: absolute;
-  top: 193%;
-  left: 16%;
+  background-image: url("./w.jpg");
+  top: 215%;
+  left: 12%;
   width: 67%;
+  display: flex;
 }
 
-/* CONTACT */
-.contact {
-  position: absolute;
-  top: 289%;
-  left: 16%;
+.spiel-text {
+  margin: 5% 5% 5% 5%;
+
 }
 
 /* PROJECTS */
 .projects {
   position: absolute;
-  top: 320%;
-  left: 16%;
+    background-image: url("./w.jpg");
+  top: 310%;
+  left: 13%;
+  width: 35%;
+  display: flex;
+}
+
+.projects-text {
+  margin: 5% 5% 5% 5%;
+
+}
+
+/* CONTACT */
+.contact {
+  position: absolute;
+  background-image: url("./w.jpg");
+  top: 310%;
+  right: 13%;
+  width: 20%;
+  display: flex;
+}
+/*
+REFACTOR AT END */
+.contact-text {
+  margin: 5% 5% 5% 5%;
+
 }

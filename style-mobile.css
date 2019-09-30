@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
   /* GENERAL PAGE VIEW MOBILE*/
   body {
-    background-image: url("./h.jpg");
+    background-image: url("./dt1.jpg");
   }
 
   h1 {
@@ -19,9 +19,15 @@
 
     font-size: 0.75rem;
     line-height: 1.2;
-  
+
   }
 
+  ul {
+
+    font-size: 0.75rem;
+    line-height: 1.2;
+
+  }
 
   /* MENU/NAVIGATION */
   .menu-burger {
@@ -45,15 +51,6 @@
 
   }
 
-
-  .overlay a:hover, .overlay a:focus {
-    color: rgb(255, 194, 232);
-    -webkit-transform: 0;
-          -ms-transform: 0;
-          transform: 0;
-  }
-
-
   .overlay .closebtn {
     top: 1.5%;
     right: 3.5%;
@@ -66,36 +63,37 @@
 
     top: 12%;
     left: 6%;
-    width: 90%;
+    width: 700%;
   }
 
   /* CUBE */
 
   .cube {
     left: 6%;
-    width: 44%;
+    width: 60%;
   }
 
   /* THE SPIEL */
   .spiel {
     position: absolute;
     top: 193%;
-    left: 16%;
+    left: 20%;
     width: 67%;
   }
 
   /* CONTACT */
   .contact {
     position: absolute;
-    top: 289%;
-    left: 16%;
+    top: 290%;
+
   }
 
   /* PROJECTS */
   .projects {
     position: absolute;
-    top: 320%;
-    left: 16%;
+    top: 285%;
+  left: 6%;
+  width: 46%;
   }
 
 
