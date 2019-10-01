@@ -98,13 +98,14 @@
   .projects {
 
     top: 315%;
+        width: 45%;
 
   }
   /* CONTACT */
   .contact {
 
     top: 352%;
-
+    width: 45%;
   }
 
 }
