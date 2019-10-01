@@ -21,13 +21,13 @@
 
     font-size: 0.5rem;
     line-height: 1.2;
-    /* letter-spacing: -1px; */
     font-weight: 500;
   }
 
   ul {
 
     font-size: 0.5rem;
+    font-weight: 500;
     line-height: 1.2;
 
   }
@@ -97,13 +97,13 @@
   /* PROJECTS */
   .projects {
 
-    top: 305%;
+    top: 315%;
 
   }
   /* CONTACT */
   .contact {
 
-    top: 330%;
+    top: 340%;
 
   }
 
