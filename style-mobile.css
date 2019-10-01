@@ -38,7 +38,11 @@
       right: 5%;
       font-size: 27px;
   }
+  .overlay-background{
+  
+    height: 300%;
 
+  }
   .overlay-content {
     width: 164px;
   top: 16%;
@@ -65,7 +69,7 @@
 
     top: 16%;
     left: 12%;
-    width: 73%;
+    width: 83%;
   }
 
 
@@ -74,31 +78,30 @@
 
   .cube {
     top: 86%;
-    
+
   }
 
   /* THE SPIEL */
   .spiel {
-    position: absolute;
-    top: 200%;
-    left: 20%;
-    width: 67%;
-  }
 
-  /* CONTACT */
-  .contact {
-    position: absolute;
-    top: 310%;
+    top: 205%;
+
 
   }
+
+
 
   /* PROJECTS */
   .projects {
-    position: absolute;
-    top: 305%;
-  left: 6%;
-  width: 46%;
-  }
 
+    top: 305%;
+
+  }
+  /* CONTACT */
+  .contact {
+
+    top: 330%;
+
+  }
 
 }
