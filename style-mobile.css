@@ -77,7 +77,9 @@
   /* CUBE */
 
   .cube {
-    top: 86%;
+    top: 100%;
+    left: 10.5%;
+    width: 40%;
 
   }
 
@@ -85,8 +87,8 @@
   .spiel {
 
     top: 205%;
-
-
+    left: 10.5%;
+    width: 70%;
   }
 
 
