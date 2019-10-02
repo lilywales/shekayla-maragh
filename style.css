@@ -181,10 +181,11 @@ ul {
 
 .section-overlay {
   width: 100%;
-  background-color: rgba(162, 191, 247, 0.95);
+  /* background-color: rgba(162, 191, 247, 0.95); */
+  background-color: rgba(90, 97, 97, 0.95);
 }
 
-.test1 {
+/* .test1 {
   width: 100%;
   background-color: rgba(90, 97, 97, 0.95);
 }
@@ -197,7 +198,7 @@ ul {
 .test3 {
   width: 100%;
   background-color: rgba(176, 181, 191, 0.95);
-}
+} */
 
 .cube-text {
   margin: 5% 5% 5% 5%;
