@@ -73,24 +73,26 @@
     width: 83%;
   }
 
+  /* THE SPIEL */
+  .spiel {
+
+    top: 100%;
+    left: 10.5%;
+    width: 70%;
+  }
 
 
   /* CUBE */
 
   .cube {
-    top: 100%;
+    top: 180%;
     left: 10.5%;
     width: 45%;
 
   }
 
-  /* THE SPIEL */
-  .spiel {
 
-    top: 205%;
-    left: 10.5%;
-    width: 70%;
-  }
+
 
 
 
