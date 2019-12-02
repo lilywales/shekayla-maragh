@@ -2,32 +2,30 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 /* GENERAL PAGE VIEW */
 body {
-  /* background-color: rgba(162, 191, 247); */
-    background-color: rgb(100, 198, 215);
-  background-image: url("./dt1.jpg");
+  background-color: rgba(162, 191, 247, 0.98);
+  background-image: url("./d.png");
   background-attachment: fixed;
   background-size: cover;
 }
 
-
 h1 {
-  color: white;
+  color: black;
   font-size: 4rem;
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
 }
 
 h2 {
-  color: white;
+  color: black;
   font-size: 2rem;
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.5;
-
 }
 
+
 p {
-  color: white;
+  color: black;
   font-size: 1rem;
   font-family: 'Roboto Condensed', sans-serif;
   line-height: 1.5;
@@ -36,12 +34,12 @@ p {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
   cursor: pointer;
 }
 
 ul {
-  color: white;
+  color: black;
   font-size: 1rem;
     font-family: 'Roboto Condensed', sans-serif;
   line-height: 1.5;
@@ -51,12 +49,13 @@ ul {
 
 .overlay-background{
   position: absolute;
-  height: 400%;
+  height: 350%;
   width: 100%;
   top: 0;
   left: 0;
-  /* background-color: rgba(162, 191, 247, 0.98); */
-  background-color: rgba(100, 177, 215, 0.98);
+
+    background-color: rgba(162, 191, 247, 0.98);
+
   overflow: hidden;
   opacity: 0.7;
 }
@@ -66,9 +65,9 @@ ul {
   position: fixed;
   top: 13%;
   right: 15%;
-  font-size:30px;
+  font-size: 40px;
   cursor:pointer;
-  color:white;
+  color:black;
 }
 
 .overlay {
@@ -79,7 +78,7 @@ ul {
   top: 0;
   left: 0;
 /* background-color: rgba(162, 191, 247); */
-  background-color: rgb(100, 198, 215);
+    background-color: rgb(162, 191, 247);
   overflow-y: hidden;
 }
 
@@ -100,7 +99,7 @@ ul {
   padding: 8px;
   text-decoration: none;
   font-size: 4rem;
-  color: white;
+  color: black;
   transition: 0.3s;
 
 }
@@ -145,15 +144,20 @@ ul {
     font-family: 'Roboto', sans-serif;
 }
 
+.content {
+  position: absolute;
+  height: 240%;
+  width: 60%;
+  top: 100%;
+  left: 15%;
+
+}
 
 /* THE SPIEL */
 .spiel {
-  position: absolute;
-  background-image: url("./w.jpg");
-    top: 105%;
-
-  left: 14%;
-  width: 65%;
+  position: relative;
+  background-image: url("./d.png");
+  width: 100%;
   display: flex;
 }
 
@@ -172,10 +176,9 @@ ul {
 
 .cube {
   background-image: url("./w.jpg");
-  position: absolute;
-  top: 205%;
-  left: 14%;
-  width: 35%;
+  position: relative;
+  top: 5%;
+  width: 50%;
   display: flex;
 }
 
@@ -183,7 +186,8 @@ ul {
   width: 100%;
   /* background-color: rgba(162, 191, 247, 0.95); */
   /* background-color: rgba(90, 97, 97, 0.95); */
-    background-color: rgba(54, 55, 55, 0.95);
+    /* background-color: rgba(54, 55, 55, 0.95); */
+    background-color: rgba(162, 191, 247, 0.95);
 }
 
 /* .test1 {
@@ -213,10 +217,10 @@ ul {
 
 /* PROJECTS */
 .projects {
-  position: absolute;
+  position: relative;
     background-image: url("./w.jpg");
-  top: 305%;
-  right: 21%;
+  top: 10%;
+  left: 65%;
   width: 35%;
   display: flex;
 }
@@ -228,11 +232,11 @@ ul {
 
 /* CONTACT */
 .contact {
-  position: absolute;
+  position: relative;
   background-image: url("./w.jpg");
-  top: 355%;
-  right: 21%;
-      width: 35%;
+  top: 12%;
+  left: 65%;
+  width: 35%;
   display: flex;
 }
 /*

@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
-  /* GENERAL PAGE VIEW MOBILE*/
+  /* GENERAL PAGE VIEW MOBILE IPHONE 8 ETC*/
   body {
-    background-image: url("./mo.jpg");
+    background-image: url("./d.png");
     background-attachment: initial;
 
   }
@@ -41,7 +41,7 @@
   }
   .overlay-background{
 
-    height: 395%;
+    height: 240%;
 
   }
   .overlay-content {
@@ -64,7 +64,19 @@
     font-size: 40px;
   }
 
+
   /* HOME SECTION */
+
+  .content {
+    position: absolute;
+    height: 180%;
+    width: 72%;
+    top: 50%;
+    left: 12%;
+
+
+  }
+
 
   .home-container {
 
@@ -72,42 +84,3 @@
     left: 12%;
     width: 83%;
   }
-
-  /* THE SPIEL */
-  .spiel {
-
-    top: 100%;
-    left: 10.5%;
-    width: 70%;
-  }
-
-
-  /* CUBE */
-
-  .cube {
-    top: 180%;
-    left: 10.5%;
-    width: 45%;
-
-  }
-
-
-
-
-
-
-  /* PROJECTS */
-  .projects {
-
-    top: 315%;
-        width: 45%;
-
-  }
-  /* CONTACT */
-  .contact {
-
-    top: 350%;
-    width: 45%;
-  }
-
-}
