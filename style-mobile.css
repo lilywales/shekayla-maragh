@@ -41,7 +41,7 @@
   }
   .overlay-background{
 
-    height: 240%;
+    height: 285%;
 
   }
   .overlay-content {
@@ -71,13 +71,22 @@
     position: absolute;
     height: 180%;
     width: 72%;
-    top: 50%;
+    top: 100%;
     left: 12%;
 
 
   }
 
+.cube {
+  width: 60%;
+}
 
+.projects {
+  width: 40%;
+}
+.contact {
+  width: 40%;
+}
   .home-container {
 
     top: 16%;
