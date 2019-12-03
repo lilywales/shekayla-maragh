@@ -19,16 +19,18 @@
 
   p {
 
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     line-height: 1.2;
     font-weight: 500;
   }
 
   ul {
 
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 500;
     line-height: 1.2;
+    padding-left: 12px;
+margin: 0;
 
   }
 
@@ -41,7 +43,7 @@
   }
   .overlay-background{
 
-    height: 368%;
+    height: 330%;
 
   }
   .overlay-content {
@@ -66,7 +68,13 @@
 
 
   /* HOME SECTION */
+  .home-container {
+    left: 12%;
+    width: 83%;
+    top: 36%;
 
+
+  }
   .content {
     position: absolute;
     height: 180%;
@@ -79,22 +87,28 @@
 
 .cube {
   width: 100%;
-}
+  top:10%;}
 
 .projects {
   width: 40%;
   left: 0%;
-
+  top: 20%;
+}
+.projects-text {
+    margin: 9% 16% 13% 13%;
 }
 .contact {
   width: 50%;
-  top: -3.9%;
+top: 3.7%;
   left: 50%;
-}
-  .home-container {
 
-    top: 16%;
-    left: 12%;
-    width: 83%;
-  }
+
+}
+.contact-text {
+  margin: 5% 5% 5% 8%;
+
+}
+.material-icons {
+  font-size: 15px;
+}
 }
