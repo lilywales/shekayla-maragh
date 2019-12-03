@@ -1,0 +1,37 @@
+@media only screen and (max-width: 900px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+
+
+  }
+  p {
+
+    font-size: 0.9rem;
+
+  }
+  .overlay a {
+
+    font-size: 3rem;
+
+
+  }
+  .overlay-content{
+    width: 274px;
+  }
+.cube {
+  width: 100%;
+}
+.projects {
+  left: 0;
+width: 55%;
+}
+.contact {
+  left: 60%;
+  top: -2.1%;
+  width: 40%;
+}
+}
