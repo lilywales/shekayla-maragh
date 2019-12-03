@@ -19,14 +19,14 @@
 
   p {
 
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     line-height: 1.2;
     font-weight: 500;
   }
 
   ul {
 
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     font-weight: 500;
     line-height: 1.2;
 
@@ -83,10 +83,13 @@
 
 .projects {
   width: 40%;
-  top: -4.6%;
+  left: 0%;
+
 }
 .contact {
-  width: 40%;
+  width: 50%;
+  top: -3.9%;
+  left: 50%;
 }
   .home-container {
 
