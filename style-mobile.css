@@ -34,6 +34,7 @@ margin: 0;
 
   }
 
+
   /* MENU/NAVIGATION */
   .menu-burger {
 
@@ -43,11 +44,11 @@ margin: 0;
   }
   .overlay-background{
 
-    height: 330%;
+    height: 370%;
 
   }
   .overlay-content {
-    width: 164px;
+    width: 168px;
   top: 16%;
   left: 5%;
 
@@ -56,7 +57,7 @@ margin: 0;
 
   .overlay a {
 
-    font-size:2.5rem;
+    font-size:2rem;
 
   }
 
@@ -66,7 +67,9 @@ margin: 0;
     font-size: 40px;
   }
 
-
+  .desktop-icon {
+    display: none;
+  }
   /* HOME SECTION */
   .home-container {
     left: 12%;
@@ -108,7 +111,5 @@ top: 3.7%;
   margin: 5% 5% 5% 8%;
 
 }
-.material-icons {
-  font-size: 15px;
-}
+
 }
