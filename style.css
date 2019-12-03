@@ -49,13 +49,13 @@ ul {
 
 .overlay-background{
   position: absolute;
-  height: 350%;
+  height: 380%;
   width: 100%;
   top: 0;
   left: 0;
 
     background-color: rgba(162, 191, 247, 0.98);
-
+  background-attachment: fixed;
   overflow: hidden;
   opacity: 0.7;
 }
